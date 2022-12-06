@@ -4,7 +4,7 @@
 
 ### Graphical Hierarchial Tree
 
-- [ ] Add toString in CuriaLocal
+- [X] Add toString in CuriaLocal
 - [X] Use Map<> more efficiently
 - [X] Add Alternate Shape
 - [X] Add Image Export
@@ -12,4 +12,4 @@
 	- [ ] Remove unused Imports
 
 
-###### Last Updated 2022-12-01 - tjudge3
+###### Last Updated 2022-12-06 - tjudge3
