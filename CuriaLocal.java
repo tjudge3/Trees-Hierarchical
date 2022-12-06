@@ -1,6 +1,7 @@
 public class CuriaLocal
 {
     private String name;
+
     private String person;
     private boolean isRoot;
 
@@ -11,12 +12,19 @@ public class CuriaLocal
         this.isRoot = isRoot;
     }
 
-    public String getName() {
+    @Override
+    public String toString(){
+        return "Office: '" + name + '\'' +", Administrator: '" + person + '\'' + isRoot +'}';
+    }
+
+    public String getName{
         return name;
     }
-    public String getPerson() {
+    public String getPerson(){
         return person;
     }
-    public boolean isRoot(){return isRoot;}
+    public boolean isRoot(){
+        return isRoot;
+    }
 
 }
