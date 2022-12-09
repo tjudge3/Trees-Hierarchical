@@ -3,28 +3,25 @@ public class CuriaLocal
     private String name;
 
     private String person;
-    private boolean isRoot;
+    private boolean isParent;
 
-    public CuriaLocal(String name, String person, boolean isRoot)
+    public CuriaLocal(String name, String person, boolean isParent)
     {
         this.name = name;
         this.person = person;
-        this.isRoot = isRoot;
+        this.isParent = isParent;
     }
 
     @Override
-    public String toString(){
-        return "Office: '" + name + '\'' +", Administrator: '" + person + '\'' + isRoot +'}';
+    public String toString() {return "Office: '" + name + '\'' +", Administrator: '" + person + '\'' + isParent +'}';
     }
 
-    public String getName{
+    public String getName() {
         return name;
     }
-    public String getPerson(){
+    public String getPerson() {
         return person;
     }
-    public boolean isRoot(){
-        return isRoot;
-    }
+    public boolean isParent(){return isParent;}
 
 }
