@@ -74,7 +74,7 @@ public class SimpleTreeNode<T>{
         {
             CuriaLocal diocese = (CuriaLocal) node.getData();
 
-            if(diocese.isRoot())
+            if(diocese.isParent())
             {
                 System.out.println("------{ " + diocese.getName() + " }------");
             }
