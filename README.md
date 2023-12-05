@@ -1,7 +1,5 @@
 # Trees-Hierarchical-CS212
 
-### This was for an assignment that I went a little overboard on
-
 ### Graphical Hierarchial Tree
 
 - [X] Add toString in CuriaLocal
